@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(167, 167, 167);
+    min-width: 360px;
+
+}
+/*!titulo de la pagina*/
+header{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    margin: 1rem;
+    text-shadow: 2px 1px 1px white;
+}
+
+/*!barra de navegacion*/
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgb(146, 146, 146);
+    margin: 0 auto;
+    width: 360px;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 15px;
+    transition: .5s;
+    font-family: "Sansation", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 1px 1px rgb(153, 129, 129);
+}
+.link:hover{
+    background-color: white;
+}
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+section{
+    width: 360px;
+}
+/*!titulo del articulo*/
+.titulo{
+    margin: 1rem auto 1px auto;
+    text-transform: uppercase;
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 100%;
+    text-align: center;
+    background-color: rgb(190, 190, 190);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+    border: solid
+     white;
+}
+/*!articulo 1*/
+.article-1{
+    display: flex;
+    align-items: center;
+    background-color: rgb(190, 190, 190);
+    width: 100%;
+    border-radius: 15px;
+    border: solid white;
+}
+.p-article-1{
+    padding: .5rem;
+    width: 65%;
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.img{
+    aspect-ratio: 1/1;
+    width: 35%;
+    padding: .5rem;
+    object-fit: cover;
+    border-radius: 25%;
+}
+
