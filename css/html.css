@@ -64,6 +64,7 @@ nav ul a{
     font-family: "Sansation", sans-serif;
     font-weight: 700;
     font-style: italic;
+    text-shadow: 2px 1px 1px rgb(0, 0, 0);
 }
 .article p{
     padding: 1rem;
@@ -74,8 +75,7 @@ nav ul a{
 }
 .article table{
     border: solid;
-    
-    margin: 1rem;
+    margin: 1rem auto;
 }
 .article th{
     border: solid;
@@ -83,6 +83,7 @@ nav ul a{
     font-family: "Sansation", sans-serif;
     font-weight: 700;
     font-style: normal;
+    padding: 5px;
 
 }
 .article td{
@@ -91,9 +92,16 @@ nav ul a{
     font-family: "Sansation", sans-serif;
     font-weight: 700;
     font-style: normal;
+    padding: 5px;
 }
 main{
     width: 100%;
     display: flex;
     justify-content: center;
+}
+.resaltado{
+    color: red;
+    font-weight: 700;
+    text-transform: lowercase;
+    
 }

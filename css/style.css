@@ -6,8 +6,6 @@
 }
 body{
     background-color: rgb(167, 167, 167);
-    min-width: 360px;
-
 }
 /*!titulo de la pagina*/
 header{
@@ -71,8 +69,7 @@ section{
     width: fit-content;
     padding: 10px;
     border-radius: 15px;
-    border: solid
-     white;
+    border: solid white;
 }
 /*!articulo 1*/
 .article-1{
@@ -87,7 +84,7 @@ section{
     padding: .5rem;
     width: 65%;
     font-family: "Sansation", sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-style: normal;
 }
 .img{
