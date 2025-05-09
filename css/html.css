@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-        background-image: url(../img/estrellas-parpadeantes-.gif);
+    background-color: rgb(107, 107, 107);   
 }
 #titulo{
     color:white;
@@ -12,12 +12,12 @@ body{
     text-transform: uppercase;
     font-family: "Sansation", sans-serif;
     font-weight: 700;
-    padding: 1rem;
+    padding: 1rem 0;
     font-style: italic;
     margin: 1rem auto;
     width: 360px;
     text-shadow: 2px 1px 1px rgb(0, 0, 0);
-    background-image: url(../img/calabera-gif.gif);
+    background-image: url(../img/dos-calabera-gif.gif);
     background-size: cover;
     background-position: center;
 }
@@ -57,7 +57,7 @@ nav ul a{
     width: 340px;
     margin: 10px;
     background-color: rgb(54, 54, 54);
-    opacity: .9;
+    z-index: -1;
 }
 .article ol{
     padding: 0 1.5rem;
@@ -111,12 +111,10 @@ main{
     width: 360px;
     display: flex;
     justify-content: center;
-    background-image: url(../img/calabera-oscuro-foto.jpg);
+    background-color: rgb(78, 78, 78);
     margin: 0 auto;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+
+
 }
 .resaltado{
     color: red;

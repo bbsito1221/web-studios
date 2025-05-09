@@ -5,31 +5,36 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../img/estrella-gif.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+        background-color: rgb(107, 107, 107); 
 }
 /*!titulo de la pagina*/
 header{
+    color:white;
     text-align: center;
     text-transform: uppercase;
     font-family: "Sansation", sans-serif;
     font-weight: 700;
+    padding: 1rem 0;
     font-style: italic;
-    margin: 1rem;
-    text-shadow: 2px 1px 1px white;
+    margin: 1rem auto;
+    width: 360px;
+    text-shadow: 2px 1px 1px rgb(0, 0, 0);
+    background-image: url(../img/dos-calabera-gif.gif);
+    background-size: cover;
+    background-position: center;
 }
 
 /*!barra de navegacion*/
 nav{
     display: flex;
     justify-content: center;
+    width: 360px;
+    margin: 1rem auto;
     padding: 1rem;
     background-color: rgb(146, 146, 146);
-    margin: 0 auto;
-    width: 360px;
+    background-image: url(../img/tres-calaberas-img.jpg);
+    background-size: cover;
+    background-position: center;
 }
 nav ul{
     width: 100%;
@@ -38,24 +43,23 @@ nav ul{
     list-style: none;
 }
 nav ul a{
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    padding: 10px;
+    color: white;
     border-radius: 15px;
-    transition: .5s;
+    padding: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
     font-family: "Sansation", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
-    text-shadow: 2px 1px 1px rgb(153, 129, 129);
+    background-color: rgba(0, 0, 0, 0.5);
 }
-.link:hover{
-    background-color: white;
-}
+
 main{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 360px;
+    margin: 1rem auto;
+    background-color: rgb(78, 78, 78);
 }
 section{
     width: 360px;
@@ -79,10 +83,18 @@ section{
 .article-1{
     display: flex;
     align-items: center;
-    background-color: rgb(190, 190, 190);
-    width: 100%;
+    background-color: rgb(54, 54, 54);
+    width: 360;
     border-radius: 15px;
     border: solid white;
+    margin: 10px;
+}
+.article-1 a{
+    color: white;
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    
 }
 .p-article-1{
     padding: .5rem;
@@ -90,12 +102,14 @@ section{
     font-family: "Sansation", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: white;
 }
 .img{
     aspect-ratio: 1/1;
     width: 35%;
-    padding: .5rem;
+    margin: .5rem;
     object-fit: cover;
     border-radius: 25%;
+    border: solid white;
 }
 
