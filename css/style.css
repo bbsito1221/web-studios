@@ -5,7 +5,11 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(167, 167, 167);
+    background-image: url(../img/estrella-gif.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 /*!titulo de la pagina*/
 header{
