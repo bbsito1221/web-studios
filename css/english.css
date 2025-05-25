@@ -18,8 +18,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 5px auto;
-    gap: 5px;
-    width: 98%;
+    gap: 5px
 }
 #title .container{
     height: auto;
@@ -28,7 +27,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: beige;
-
+    font-size: 2rem;
 }
 
 h2{
@@ -36,12 +35,14 @@ h2{
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
+    font-size: 3rem;
 }
 p{
     font-family: "Ancizar Serif", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-size: 2rem;
 }
 thead th{
     font-family: "Ancizar Serif", serif;
@@ -56,6 +57,7 @@ thead th{
 table{
     border: solid 2px;
     background-color: rgb(77, 77, 77);
+    font-size: 2rem;
 }
 
 td{
