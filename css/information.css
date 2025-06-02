@@ -19,7 +19,7 @@ p{
 }
     */
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(61, 61, 61);
 }
 .img-tito{
     width: 100vw;
@@ -37,9 +37,28 @@ body{
     font-style: normal;
     text-align: center;
 }
+nav .container{
+    background-color: rgb(48, 48, 48);
+    padding: 1rem;
+    & ul{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        align-items: center;
+    }
+    & a{
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: italic;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}
 .img{
     width: 100%;
-    height: 10rem;
+    height: 12rem;
     object-fit: cover;
 }
 
